@@ -1,0 +1,92 @@
+
+.sidenavbar {
+  background-color: #0458AB;
+  height: 100vh;
+  width: 260px;
+  transition: transform 0.3s ease;
+}
+
+.sidenavbar.open {
+  transform: translateX(0);
+}
+
+.toggle-icon {
+  color: #fff;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  display: none; /* Initially hide list icon */
+}
+
+.sidenavbar-content {
+  padding: 20px;
+}
+
+.company-logo {
+  width: 40%;
+ margin-left: 50px;
+ margin-top: -60px;
+ margin-bottom: 40px;
+}
+
+.title {
+  color: #fff;
+  margin-bottom: 30px;
+  margin-left: 10px;
+}
+
+.menu-item {
+  margin-bottom: 10px;
+  background-color: #2589b5;
+  border-radius: 10px;
+  color: white;
+  padding: 7px;
+}
+
+.dropdown-button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.submenu {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.menu-item-container {
+  display: flex;
+  align-items: right;
+}
+
+.nav-link {
+  text-decoration: none; 
+  color: white; 
+}
+
+
+
+@media (max-width: 768px) { /* Apply styles for screens smaller than 768px */
+  .sidenavbar {
+    transform: translateX(-260px); /* Initially hide sidebar */
+  }
+  
+  .sidenavbar.open {
+    transform: translateX(0);
+  }
+
+  .toggle-icon {
+    display: block; /* Show list icon */
+    margin-left: 250px;
+    margin-top: -50px;
+  }
+  .company-logo{
+    margin-top: 10px;
+  }
+  .menu-item {
+      width: 220px;
+      margin-left: -5px;
+  }
+}

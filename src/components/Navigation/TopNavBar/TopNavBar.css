@@ -1,0 +1,60 @@
+.top-bar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0458ab;
+  padding: 10px;
+  height: 40px;
+}
+
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.icon i {
+  color: white; 
+}
+
+.profile-icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.announcement-icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.notification-icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.help-icon {
+  background-color: white;
+  border-radius: 100%;
+  padding: 5px;
+  height: 24px;
+  cursor: pointer;
+}
+
+.top-bar-nav {
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center; 
+}
+
+.top-bar-nav-right {
+  display: flex; 
+  gap: 10px; 
+}

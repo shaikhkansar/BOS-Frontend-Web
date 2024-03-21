@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
 }
 
 .App-logo {
@@ -35,4 +46,7 @@
   to {
     transform: rotate(360deg);
   }
+
+
+  
 }
