@@ -77,9 +77,9 @@ const SideNavbar = () => {
             {enquiryDropdownOpen && (
               <ul className="submenu">
                 <Link to="/add-enquiry" className="nav-link">
-                <li>Add Enquiry</li>
+                <li>Add Enquery</li>
                 </Link>
-                <li>Option 2</li>
+                <li>Edit Equery</li>
                 <li>Option 3</li>
               </ul>
             )}
