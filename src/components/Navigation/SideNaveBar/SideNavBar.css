@@ -4,7 +4,7 @@
   height: 100vh;
   width: 260px;
   transition: transform 0.3s ease;
-}
+}   
 
 .sidenavbar.open {
   transform: translateX(0);
@@ -70,7 +70,13 @@
 
 @media (max-width: 768px) { /* Apply styles for screens smaller than 768px */
   .sidenavbar {
-    transform: translateX(-260px); /* Initially hide sidebar */
+    transform: translateX(-260px); 
+    height: 170vh;
+    
+  }
+
+  .main-content {
+    width: 0%; /* Occupy full width */
   }
   
   .sidenavbar.open {
@@ -80,7 +86,7 @@
   .toggle-icon {
     display: block; /* Show list icon */
     margin-left: 250px;
-    margin-top: -50px;
+    margin-top: -58px;
   }
   .company-logo{
     margin-top: 10px;

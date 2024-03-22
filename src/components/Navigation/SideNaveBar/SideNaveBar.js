@@ -79,7 +79,7 @@ const SideNavbar = () => {
                 <Link to="/add-enquiry" className="nav-link">
                 <li>Add Enquery</li>
                 </Link>
-                <li>Edit Equery</li>
+                <li>Edit Equiry</li>
                 <li>Option 3</li>
               </ul>
             )}

@@ -58,3 +58,13 @@
   display: flex; 
   gap: 10px; 
 }
+
+@media (max-width: 768px) { 
+
+  .top-bar-nav {
+  
+      width: 173%; /* Adjust the width as needed */
+   
+  }
+
+}
